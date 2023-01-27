@@ -265,11 +265,11 @@ public:
   StrategyChoiceSetCommand();
 };
 
-
 /**
  * \ingroup management
- * \brief Represents a `strategy-choice/set` command.
- * \sa https://redmine.named-data.net/projects/nfd/wiki/StrategyChoice#Unset-the-strategy-for-a-namespace
+ * \brief Represents a `strategy-choice/unset` command.
+ * \sa
+ * https://redmine.named-data.net/projects/nfd/wiki/StrategyChoice#Unset-the-strategy-for-a-namespace
  */
 class StrategyChoiceUnsetCommand : public ControlCommand
 {
